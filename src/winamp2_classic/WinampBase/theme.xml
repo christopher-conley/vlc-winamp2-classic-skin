@@ -1,0 +1,414 @@
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0">
+  <ThemeInfo name="WinampBase" author="Baegus" email="baegus@gmail.com" webpage="http://baegus.deviantart.com/"/>
+
+  <!-- Created using the VLC Skin Editor 0.8.6.dev (http://www.videolan.org/vlc/skineditor.html)-->
+
+  <Bitmap id="cbuttons" file="cbuttons.png" alphacolor="#00c6ff">
+    <SubBitmap id="previous_up" x="0" y="0" height="18" width="23"/>
+    <SubBitmap id="play_up" x="23" y="0" height="18" width="23"/>
+    <SubBitmap id="pause_up" x="46" y="0" height="18" width="23"/>
+    <SubBitmap id="stop_up" x="69" y="0" height="18" width="23"/>
+    <SubBitmap id="next_up" x="92" y="0" height="18" width="22"/>
+    <SubBitmap id="eject_up" x="114" y="0" height="16" width="22"/>
+    <SubBitmap id="previous_down" x="0" y="18" height="18" width="23"/>
+    <SubBitmap id="play_down" x="23" y="18" height="18" width="23"/>
+    <SubBitmap id="pause_down" x="46" y="18" height="18" width="23"/>
+    <SubBitmap id="stop_down" x="69" y="18" height="18" width="23"/>
+    <SubBitmap id="next_down" x="92" y="18" height="18" width="22"/>
+    <SubBitmap id="eject_down" x="114" y="16" height="16" width="22"/>
+  </Bitmap>
+  <Bitmap id="eq_ex" file="eq_ex.png" alphacolor="#00c6ff">
+    <SubBitmap id="eq_small_focus" x="0" y="0" height="14" width="275"/>
+    <SubBitmap id="eq_small_switch_up" x="254" y="3" height="9" width="9"/>
+    <SubBitmap id="eq_small_switch_down" x="1" y="47" height="9" width="9"/>
+    <SubBitmap id="eq_small_close_up" x="11" y="38" height="9" width="9"/>
+    <SubBitmap id="eq_small_close_down" x="11" y="47" height="9" width="9"/>
+    <SubBitmap id="eq_small_volume_up" x="1" y="30" height="7" width="3"/>
+  </Bitmap>
+  <Bitmap id="eqmain" file="eqmain.png" alphacolor="#00c6ff">
+    <SubBitmap id="eq_bg" x="0" y="0" height="116" width="275"/>
+    <SubBitmap id="eq_title_focus" x="0" y="134" height="14" width="275"/>
+    <SubBitmap id="eq_notok_up" x="10" y="119" height="12" width="26"/>
+    <SubBitmap id="eq_notok_down" x="128" y="119" height="12" width="26"/>
+    <SubBitmap id="eq_ok_up" x="69" y="119" height="12" width="26"/>
+    <SubBitmap id="eq_ok_down" x="187" y="119" height="12" width="26"/>
+    <SubBitmap id="eq_switch_up" x="254" y="137" height="9" width="9"/>
+    <SubBitmap id="eq_switch_down" x="244" y="137" height="9" width="9"/>
+    <SubBitmap id="eq_close_up" x="0" y="116" height="9" width="9"/>
+    <SubBitmap id="eq_close_down" x="0" y="125" height="9" width="9"/>
+    <SubBitmap id="eq_slider_up" x="0" y="164" height="11" width="11"/>
+    <SubBitmap id="eq_slider_down" x="0" y="176" height="11" width="11"/>
+    <SubBitmap id="eq_slider_bg" x="13" y="164" height="129" width="209"/>
+    <SubBitmap id="eq_grid" x="0" y="294" height="19" width="113"/>
+  </Bitmap>
+  <Bitmap id="main" file="main.png" alphacolor="#00c6ff"/>
+  <Bitmap id="playpaus" file="playpaus.png" alphacolor="#00c6ff">
+    <SubBitmap id="play_icon" x="0" y="0" height="9" width="9"/>
+    <SubBitmap id="pause_icon" x="9" y="0" height="9" width="9"/>
+    <SubBitmap id="stop_icon" x="18" y="0" height="9" width="9"/>
+  </Bitmap>
+  <Bitmap id="pledit" file="pledit.png" alphacolor="#00c6ff">
+    <SubBitmap id="pl_upleft_focus" x="0" y="0" height="20" width="25"/>
+    <SubBitmap id="pl_title_focus" x="26" y="0" height="20" width="100"/>
+    <SubBitmap id="pl_up_focus" x="127" y="0" height="20" width="25"/>
+    <SubBitmap id="pl_upright_focus" x="153" y="0" height="20" width="25"/>
+    <SubBitmap id="pl_down1" x="179" y="0" height="38" width="25"/>
+    <SubBitmap id="pl_down2" x="205" y="0" height="38" width="75"/>
+    <SubBitmap id="pl_left" x="0" y="42" height="29" width="25"/>
+    <SubBitmap id="pl_right" x="26" y="42" height="29" width="25"/>
+    <SubBitmap id="pl_slider_up" x="52" y="53" height="18" width="8"/>
+    <SubBitmap id="pl_slider_down" x="61" y="53" height="18" width="8"/>
+    <SubBitmap id="pl_downleft" x="0" y="72" height="38" width="125"/>
+    <SubBitmap id="pl_downright" x="126" y="72" height="38" width="150"/>
+    <SubBitmap id="pl_resize" x="256" y="90" height="20" width="20"/>
+    <SubBitmap id="pl_switch_up" x="157" y="3" height="9" width="9"/>
+    <SubBitmap id="pl_switch_down" x="61" y="42" height="9" width="9"/>
+    <SubBitmap id="pl_close_up" x="167" y="3" height="9" width="9"/>
+    <SubBitmap id="pl_close_down" x="51" y="42" height="9" width="9"/>
+    <SubBitmap id="pl_previous" x="132" y="95" height="8" width="8"/>
+    <SubBitmap id="pl_play" x="141" y="95" height="8" width="8"/>
+    <SubBitmap id="pl_pause" x="150" y="95" height="8" width="8"/>
+    <SubBitmap id="pl_stop" x="159" y="95" height="8" width="8"/>
+    <SubBitmap id="pl_forward" x="168" y="95" height="8" width="8"/>
+    <SubBitmap id="pl_eject" x="177" y="95" height="8" width="8"/>
+    <SubBitmap id="pl_small_left" x="72" y="42" height="14" width="25"/>
+    <SubBitmap id="pl_small_middle" x="72" y="57" height="14" width="25"/>
+    <SubBitmap id="pl_small_right_focus" x="99" y="42" height="14" width="50"/>
+    <SubBitmap id="pl_small_switch_up" x="128" y="45" height="9" width="9"/>
+    <SubBitmap id="pl_small_close_up" x="138" y="45" height="9" width="9"/>
+    <SubBitmap id="pl_small_resize" x="117" y="42" height="14" width="11"/>
+    <SubBitmap id="pl_add_up" x="14" y="80" height="18" width="22"/>
+    <SubBitmap id="pl_sub_up" x="43" y="80" height="18" width="22"/>
+    <SubBitmap id="pl_add_down" x="23" y="149" height="18" width="22"/>
+    <SubBitmap id="pl_sub_down" x="77" y="149" height="18" width="22"/>
+  </Bitmap>
+  <Bitmap id="posbar" file="posbar.png" alphacolor="#00c6ff">
+    <SubBitmap id="time_bg" x="0" y="0" height="10" width="248"/>
+    <SubBitmap id="time_bg_2" x="0" y="0" height="2" width="248"/>
+    <SubBitmap id="time_up" x="248" y="0" height="10" width="29"/>
+    <SubBitmap id="time_up_2" x="248" y="0" height="2" width="29"/>
+    <SubBitmap id="time_down" x="278" y="0" height="10" width="29"/>
+    <SubBitmap id="time_down_2" x="278" y="0" height="2" width="29"/>
+  </Bitmap>
+  <Bitmap id="shufrep" file="shufrep.png" alphacolor="#00c6ff">
+    <SubBitmap id="noloop_up" x="0" y="0" height="15" width="28"/>
+    <SubBitmap id="noloop_down" x="0" y="15" height="15" width="28"/>
+    <SubBitmap id="loop_up" x="0" y="30" height="15" width="28"/>
+    <SubBitmap id="loop_down" x="0" y="45" height="15" width="28"/>
+    <SubBitmap id="noshuffle_up" x="28" y="0" height="15" width="47"/>
+    <SubBitmap id="noshuffle_down" x="28" y="15" height="15" width="47"/>
+    <SubBitmap id="shuffle_up" x="28" y="30" height="15" width="47"/>
+    <SubBitmap id="shuffle_down" x="28" y="45" height="15" width="47"/>
+    <SubBitmap id="eqoff_up" x="0" y="61" height="12" width="23"/>
+    <SubBitmap id="eqon_up" x="0" y="73" height="12" width="23"/>
+    <SubBitmap id="ploff_up" x="23" y="61" height="12" width="23"/>
+    <SubBitmap id="plon_up" x="23" y="73" height="12" width="23"/>
+    <SubBitmap id="eqoff_down" x="46" y="61" height="12" width="23"/>
+    <SubBitmap id="eqon_down" x="46" y="73" height="12" width="23"/>
+    <SubBitmap id="ploff_down" x="69" y="61" height="12" width="23"/>
+    <SubBitmap id="plon_down" x="69" y="73" height="12" width="23"/>
+  </Bitmap>
+  <Bitmap id="titlebar" file="titlebar.png" alphacolor="#00c6ff">
+    <SubBitmap id="menu_up" x="0" y="0" height="9" width="9"/>
+    <SubBitmap id="menu_down" x="0" y="9" height="9" width="9"/>
+    <SubBitmap id="minimize_up" x="9" y="0" height="9" width="9"/>
+    <SubBitmap id="minimize_down" x="9" y="9" height="9" width="9"/>
+    <SubBitmap id="switch_up" x="0" y="18" height="9" width="9"/>
+    <SubBitmap id="switch_down" x="9" y="18" height="9" width="9"/>
+    <SubBitmap id="quit_up" x="18" y="0" height="9" width="9"/>
+    <SubBitmap id="quit_down" x="18" y="9" height="9" width="9"/>
+    <SubBitmap id="title_focus" x="27" y="0" height="14" width="275"/>
+    <SubBitmap id="five_dots" x="304" y="0" height="43" width="8"/>
+    <SubBitmap id="dot2_down" x="312" y="54" height="8" width="8"/>
+    <SubBitmap id="dot2_up" x="304" y="10" height="8" width="8"/>
+    <SubBitmap id="small_focus" x="27" y="29" height="14" width="275"/>
+    <SubBitmap id="small_previous" x="194" y="32" height="8" width="8"/>
+    <SubBitmap id="small_play" x="203" y="32" height="8" width="8"/>
+    <SubBitmap id="small_pause" x="212" y="32" height="8" width="8"/>
+    <SubBitmap id="small_stop" x="221" y="32" height="8" width="8"/>
+    <SubBitmap id="small_forward" x="230" y="32" height="8" width="8"/>
+    <SubBitmap id="small_eject" x="239" y="32" height="8" width="8"/>
+    <SubBitmap id="small_time_bg" x="0" y="36" height="7" width="17"/>
+    <SubBitmap id="small_time_cursor_up" x="17" y="36" height="7" width="2"/>
+  </Bitmap>
+  <Bitmap id="volume" file="volume.png" alphacolor="#00c6ff">
+    <SubBitmap id="volume_bg" x="0" y="0" height="418" width="68"/>
+    <SubBitmap id="volume_bg_2" x="0" y="0" height="418" width="65"/>
+    <SubBitmap id="volume_up" x="15" y="422" height="11" width="14"/>
+    <SubBitmap id="volume_down" x="0" y="422" height="11" width="14"/>
+  </Bitmap>
+  <Font id="playlist_font" file="FreeSansBold.ttf" size="10"/>
+  <BitmapFont id="digits_font" file="nums_ex.png" type="digits"/>
+  <BitmapFont id="text_font" file="text.png" type="text"/>
+
+  <Bitmap id="video" file="video.png" alphacolor="#FF00FF">
+    <SubBitmap id="video_lefttop_up" x="0" y="0" height="20" width="25"/>
+    <SubBitmap id="video_lefttop_down" x="0" y="21" height="20" width="25"/>
+    <SubBitmap id="video_title_up" x="26" y="0" height="20" width="100"/>
+    <SubBitmap id="video_title_down" x="26" y="21" height="20" width="100"/>
+    <SubBitmap id="video_righttop_up" x="127" y="0" height="20" width="25"/>
+    <SubBitmap id="video_righttop_down" x="127" y="21" height="20" width="25"/>
+    <SubBitmap id="video_rightcorn_up" x="153" y="0" height="20" width="25"/>
+    <SubBitmap id="video_rightcorn_down" x="153" y="21" height="20" width="25"/>
+    <SubBitmap id="video_leftbottom" x="0" y="42" height="38" width="125"/>
+    <SubBitmap id="video_rightbottom" x="0" y="81" height="38" width="125"/>
+    <SubBitmap id="video_center_bottom" x="127" y="81" height="38" width="25"/>
+    <SubBitmap id="video_center_left" x="127" y="42" height="29" width="11"/>
+    <SubBitmap id="video_center_right" x="139" y="42" height="29" width="8"/>
+    <SubBitmap id="video_close_clicked" x="148" y="42" height="9" width="9"/>
+    <SubBitmap id="video_options" x="158" y="42" height="18" width="75"/>
+    <SubBitmap id="video_fullscreen" x="10" y="53" height="13" width="13"/>
+    <SubBitmap id="video_1x" x="25" y="53" height="13" width="13"/>
+    <SubBitmap id="video_2x" x="40" y="53" height="13" width="13"/>
+    <SubBitmap id="video_tv" x="56" y="53" height="12" width="11"/>
+    <SubBitmap id="video_dropdown" x="220" y="46" height="13" width="13"/>
+  </Bitmap>
+
+  <Window id="main_window" x="100" y="100">
+    <Layout id="small_layout" width="275" height="14">
+      <Anchor id="Unnamed Anchor #3" priority="100"/>
+      <Anchor id="Unnamed Anchor #4" y="14" priority="100"/>
+      <Anchor id="Unnamed Anchor #5" x="275" priority="100"/>
+      <Anchor id="Unnamed Anchor #6" x="275" y="14" priority="100"/>
+      <Anchor id="Unnamed Anchor #7" x="30" points="(0,0),(245,0)" priority="90"/>
+      <Anchor id="Unnamed Anchor #8" x="30" y="14" points="(0,0),(245,0)" priority="90"/>
+      <Image id="Unnamed Image #9" image="small_focus" action="move" action2="main_window.setLayout(big_layout)"/>
+      <Text text="$t" font="text_font" alignment="right" id="Unnamed Text #10" x="122" y="4" width="35" visible="not vlc.isStopped"/>
+      <Button up="menu_up" down="menu_down" over="menu_up" action="dialogs.popup()" id="Unnamed Button #11" x="6" y="3" tooltiptext="Popup menu"/>
+      <Button up="small_previous" action="playlist.previous()" id="Unnamed Button #12" x="167" y="3"/>
+      <Button up="small_play" action="vlc.play()" id="Unnamed Button #13" x="176" y="3"/>
+      <Button up="small_pause" action="vlc.pause()" id="Unnamed Button #14" x="185" y="3"/>
+      <Button up="small_stop" action="vlc.stop()" id="Unnamed Button #15" x="194" y="3"/>
+      <Button up="small_forward" action="playlist.next()" id="Unnamed Button #16" x="203" y="3"/>
+      <Button up="small_eject" action="dialogs.fileSimple()" id="Unnamed Button #17" x="212" y="3"/>
+      <Button up="minimize_up" down="minimize_down" over="minimize_up" action="vlc.minimize()" id="Unnamed Button #18" x="244" y="3" tooltiptext="Minimize"/>
+      <Button up="switch_up" down="switch_down" over="switch_up" action="main_window.setLayout(big_layout)" id="Unnamed Button #19" x="254" y="3" tooltiptext="Switch"/>
+      <Button up="quit_up" down="quit_down" over="quit_up" action="vlc.quit()" id="Unnamed Button #20" x="264" y="3" tooltiptext="Quit"/>
+      <Image id="Unnamed Image #21" x="226" y="4" image="small_time_bg" visible="not vlc.isStopped"/>
+      <Slider id="Unnamed Slider #22" x="227" y="7" points="(0,0),(14,0)" thickness="7" value="time" tooltiptext="Time: $T" up="small_time_cursor_up" down="small_time_cursor_up" visible="not vlc.isStopped"/>
+    </Layout>
+    <Layout id="big_layout" width="275" height="116">
+      <Anchor id="Anchor #12" priority="15"/>
+      <Anchor id="Anchor #13" x="275" priority="100"/>
+      <Anchor id="Anchor #14" y="116" priority="100"/>
+      <Anchor id="Anchor #15" x="275" y="116" priority="100"/>
+      <Anchor id="Anchor #16" x="30" points="(0,0),(245,0)" priority="90"/>
+      <Anchor id="Anchor #17" x="30" y="116" points="(0,0),(245,0)" priority="90"/>
+      <Anchor id="Anchor #18" y="30" points="(0,0),(0,86)" priority="90"/>
+      <Anchor id="Anchor #19" x="275" y="30" points="(0,0),(0,86)" priority="90"/>
+      <Image id="ui" image="main" action="move"/>
+      <Image id="5dots" x="10" y="22" image="five_dots"/>
+      <Checkbox state="vlc.isOnTop" up1="dot2_up" up2="dot2_down" down1="dot2_down" down2="dot2_up" action1="vlc.onTop()" action2="vlc.onTop()" tooltiptext1="Toggle Always-On-Top" tooltiptext2="Toggle Always-On-Top" id="Unnamed Checkbox #34" x="10" y="32"/>
+      <Image id="play_icon" x="26" y="29" image="play_icon" visible="vlc.isPlaying"/>
+      <Image id="pause_icon" x="26" y="29" image="pause_icon" visible="vlc.isPaused"/>
+      <Image id="stop_icon" x="26" y="29" image="stop_icon" visible="vlc.isStopped"/>
+      <Image id="title_focus" image="title_focus" action="move" action2="main_window.setLayout(small_layout)"/>
+      <Text text="$t" font="digits_font;digits_font_2" alignment="right" id="Unnamed Text #39" x="30" y="26" width="72" visible="not vlc.isStopped"/>
+      <Text text="$N" font="text_font" id="Unnamed Text #40" x="111" y="27" width="155"/>
+      <Text text="$B" font="text_font" alignment="right" id="Unnamed Text #41" x="111" y="43" width="15"/>
+      <Text text="$S" font="text_font" alignment="right" id="Unnamed Text #42" x="151" y="43" width="15"/>
+      <Slider id="volume_slider" x="107" y="57" points="(7,6),(58,6)" value="volume" tooltiptext="Volume: $V%" up="volume_up" down="volume_down">
+        <SliderBackground id="Unnamed SliderBackground #44" image="volume_bg" nbvert="28" padvert="2"/>
+      </Slider>
+      <Image id="time_bg" x="16" y="72" image="time_bg" visible="not vlc.isStopped"/>
+      <Slider id="time" x="30" y="77" points="(0,0),(218,0)" thickness="5" value="time" tooltiptext="Time: $T" up="time_up;time_up_2" down="time_down;time_down_2" visible="not vlc.isStopped"/>
+      <Button up="menu_up" down="menu_down" over="menu_up" action="dialogs.popup()" id="Unnamed Button #47" x="6" y="3" tooltiptext="Popup menu"/>
+      <Button up="minimize_up" down="minimize_down" over="minimize_up" action="vlc.minimize()" id="Unnamed Button #48" x="244" y="3" tooltiptext="Minimize"/>
+      <Button up="switch_up" down="switch_down" over="switch_up" action="main_window.setLayout(small_layout)" id="Unnamed Button #49" x="254" y="3" tooltiptext="Switch"/>
+      <Button up="quit_up" down="quit_down" over="quit_up" action="vlc.quit()" id="Unnamed Button #50" x="264" y="3" tooltiptext="Quit"/>
+      <Button up="previous_up" down="previous_down" action="playlist.previous()" id="Unnamed Button #51" x="16" y="88" tooltiptext="Previous"/>
+      <Button up="play_up" down="play_down" action="vlc.play()" id="Unnamed Button #52" x="39" y="88" tooltiptext="Play"/>
+      <Button up="pause_up" down="pause_down" action="vlc.pause()" id="Unnamed Button #53" x="62" y="88" tooltiptext="Pause"/>
+      <Button up="stop_up" down="stop_down" action="vlc.stop()" id="Unnamed Button #54" x="85" y="88" tooltiptext="Stop"/>
+      <Button up="next_up" down="next_down" action="playlist.next()" id="Unnamed Button #55" x="108" y="88" tooltiptext="Next"/>
+      <Button up="eject_up" down="eject_down" action="dialogs.fileSimple()" id="Unnamed Button #56" x="136" y="89" tooltiptext="Open"/>
+      <Checkbox state="playlist.isRandom" up1="noshuffle_up" up2="shuffle_up" down1="noshuffle_down" down2="shuffle_down" action1="playlist.setRandom(true)" action2="playlist.setRandom(false)" tooltiptext1="Shuffle" tooltiptext2="Shuffle" id="Unnamed Checkbox #57" x="164" y="89"/>
+      <Checkbox state="playlist.isLoop" up1="noloop_up" up2="loop_up" down1="noloop_down" down2="loop_down" action1="playlist.setLoop(true)" action2="playlist.setLoop(false)" tooltiptext1="Loop" tooltiptext2="Loop" id="Unnamed Checkbox #58" x="210" y="89"/>
+      <Checkbox state="equalizer_window.isVisible" up1="eqoff_up" up2="eqon_up" down1="eqoff_down" down2="eqon_down" action1="equalizer_window.show()" action2="equalizer_window.hide()" tooltiptext1="Show equalizer" tooltiptext2="Hide equalizer" id="Unnamed Checkbox #59" x="219" y="58"/>
+      <Checkbox state="playlist_window.isVisible" up1="ploff_up" up2="plon_up" down1="ploff_down" down2="plon_down" action1="playlist_window.show()" action2="playlist_window.hide()" tooltiptext1="Show playlist" tooltiptext2="Hide playlist" id="Unnamed Checkbox #60" x="242" y="58"/>
+    </Layout>
+  </Window>
+  <Window id="equalizer_window" x="100" y="216">
+    <Layout id="eq_small_layout" width="275" height="116">
+      <Anchor id="Unnamed Anchor #63" priority="70"/>
+      <Anchor id="Unnamed Anchor #64" x="275" priority="70"/>
+      <Anchor id="Unnamed Anchor #65" y="14" priority="70"/>
+      <Anchor id="Unnamed Anchor #66" x="275" y="14" priority="70"/>
+      <Anchor id="Unnamed Anchor #67" x="30" points="(0,0),(245,0)" priority="60"/>
+      <Anchor id="Unnamed Anchor #68" x="30" y="14" points="(0,0),(245,0)" priority="60"/>
+      <Image id="eq_small_focus" image="eq_small_focus" action="move" action2="equalizer_window.setLayout(eq_big_layout)"/>
+      <Button up="eq_small_switch_up" down="eq_small_switch_down" over="eq_small_switch_up" action="equalizer_window.setLayout(eq_big_layout)" id="Unnamed Button #70" x="254" y="3" tooltiptext="Switch"/>
+      <Button up="eq_small_close_up" down="eq_small_close_down" over="eq_small_close_up" action="equalizer_window.hide()" id="Unnamed Button #71" x="264" y="3" tooltiptext="Close the window"/>
+      <Slider id="eq_volume_slider" x="62" y="4" points="(0,3),(94,3)" thickness="7" value="volume" tooltiptext="Volume: $V%" up="eq_small_volume_up" down="eq_small_volume_up"/>
+    </Layout>
+    <Layout id="eq_big_layout" width="275" height="116">
+      <Anchor id="Unnamed Anchor #74" priority="70"/>
+      <Anchor id="Unnamed Anchor #75" x="275" priority="70"/>
+      <Anchor id="Unnamed Anchor #76" y="116" priority="70"/>
+      <Anchor id="Unnamed Anchor #77" x="275" y="116" priority="70"/>
+      <Anchor id="Unnamed Anchor #78" x="30" points="(0,0),(245,0)" priority="60"/>
+      <Anchor id="Unnamed Anchor #79" x="30" y="116" points="(0,0),(245,0)" priority="60"/>
+      <Anchor id="Unnamed Anchor #80" y="30" points="(0,0),(0,86)" priority="60"/>
+      <Anchor id="Unnamed Anchor #81" x="275" y="30" points="(0,0),(0,86)" priority="60"/>
+      <Image id="eq_bg" image="eq_bg" action="move"/>
+      <Image id="eq_title_focus" image="eq_title_focus" action="move" action2="equalizer_window.setLayout(eq_small_layout)"/>
+      <Image id="eq_grid" x="86" y="16" image="eq_grid" action="move"/>
+      <Button up="eq_switch_up" down="eq_switch_down" over="eq_switch_up" action="equalizer_window.setLayout(eq_small_layout)" id="Unnamed Button #85" x="254" y="3" tooltiptext="Switch"/>
+      <Button up="eq_close_up" down="eq_close_down" over="eq_close_up" action="equalizer_window.hide()" id="Unnamed Button #86" x="264" y="3" tooltiptext="Close the window"/>
+      <Checkbox state="equalizer.isEnabled" up1="eq_notok_up" up2="eq_ok_up" down1="eq_notok_down" down2="eq_ok_down" action1="equalizer.enable()" action2="equalizer.disable()" tooltiptext1="Enable equalizer" tooltiptext2="Disable equalizer" id="Unnamed Checkbox #87" x="15" y="18"/>
+      <Slider id="Unnamed Slider #88" x="21" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.preamp" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #89" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #90" x="78" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(0)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #91" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #92" x="96" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(1)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #93" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #94" x="114" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(2)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #95" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #96" x="132" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(3)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #97" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #98" x="150" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(4)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #99" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #100" x="168" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(5)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #101" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #102" x="186" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(6)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #103" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #104" x="204" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(7)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #105" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #106" x="222" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(8)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #107" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+      <Slider id="Unnamed Slider #108" x="240" y="38" points="(6,55),(6,7)" thickness="6" value="equalizer.band(9)" tooltiptext="" up="eq_slider_up" down="eq_slider_down">
+        <SliderBackground id="Unnamed SliderBackground #109" image="eq_slider_bg" nbhoriz="14" nbvert="2" padhoriz="1" padvert="1"/>
+      </Slider>
+    </Layout>
+  </Window>
+  <Window id="playlist_window" x="100" y="332">
+    <Layout id="pl_small_layout" width="275" height="116" minwidth="275" maxwidth="1000" minheight="116" maxheight="800">
+      <Anchor id="Unnamed Anchor #112" priority="30"/>
+      <Anchor id="Unnamed Anchor #113" x="275" priority="30"/>
+      <Anchor id="Unnamed Anchor #114" y="116" priority="30"/>
+      <Anchor id="Unnamed Anchor #115" x="275" y="116" priority="30"/>
+      <Anchor id="Unnamed Anchor #116" x="30" points="(0,0),(245,0)" priority="20"/>
+      <Anchor id="Unnamed Anchor #117" x="30" y="116" points="(0,0),(245,0)" priority="20"/>
+      <Image id="pl_small_left" image="pl_small_left" action="move" action2="playlist_window.setLayout(pl_big_layout)"/>
+      <Image id="pl_small_middle" x="25" image="pl_small_middle" action="move" action2="playlist_window.setLayout(pl_big_layout)"/>
+      <Image id="pl_small_middle2" x="50" image="pl_small_middle" action="move" action2="playlist_window.setLayout(pl_big_layout)"/>
+      <Image id="pl_small_middle3" x="75" image="pl_small_middle" action="move" action2="playlist_window.setLayout(pl_big_layout)"/>
+      <Image id="pl_small_middle4" x="100" image="pl_small_middle" action="move" action2="playlist_window.setLayout(pl_big_layout)"/>
+      <Image id="pl_small_middle5" x="125" image="pl_small_middle" action="move" action2="playlist_window.setLayout(pl_big_layout)"/>
+      <Image id="pl_small_middle6" x="150" image="pl_small_middle" action="move" action2="playlist_window.setLayout(pl_big_layout)"/>
+      <Image id="pl_small_middle7" x="175" image="pl_small_middle" action="move" action2="playlist_window.setLayout(pl_big_layout)"/>
+      <Image id="pl_small_middle8" x="200" image="pl_small_middle" action="move" action2="playlist_window.setLayout(pl_big_layout)" rightbottom="righttop"/>
+      <Image id="pl_small_right_focus" x="225" image="pl_small_right_focus" action="move" action2="playlist_window.setLayout(pl_big_layout)" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="pl_small_resize" x="243" image="pl_small_resize" action="resizeE" lefttop="righttop" rightbottom="righttop"/>
+      <Button up="pl_small_switch_up" down="pl_switch_down" over="pl_small_switch_up" action="playlist_window.setLayout(pl_big_layout)" id="Unnamed Button #129" x="254" y="3" lefttop="righttop" rightbottom="righttop" tooltiptext="Switch"/>
+      <Button up="pl_small_close_up" down="pl_close_down" over="pl_small_close_up" action="playlist_window.hide()" id="Unnamed Button #130" x="264" y="3" lefttop="righttop" rightbottom="righttop" tooltiptext="Close the window"/>
+      <Text text="$N" font="text_font" id="Unnamed Text #131" x="4" y="4" width="239"/>
+    </Layout>
+    <Layout id="pl_big_layout" width="275" height="116" minwidth="275" maxwidth="1000" minheight="116" maxheight="800">
+      <Anchor id="Unnamed Anchor #133" priority="30"/>
+      <Anchor id="Unnamed Anchor #134" x="274" y="1" priority="30"/>
+      <Anchor id="Unnamed Anchor #135" y="116" priority="30"/>
+      <Anchor id="Unnamed Anchor #136" x="275" y="116" priority="30"/>
+      <Anchor id="Unnamed Anchor #137" x="30" points="(0,0),(245,0)" priority="20"/>
+      <Anchor id="Unnamed Anchor #138" x="30" y="116" points="(0,0),(245,0)" priority="20"/>
+      <Anchor id="Unnamed Anchor #139" y="30" points="(0,0),(0,86)" priority="20"/>
+      <Anchor id="Unnamed Anchor #140" x="275" y="30" points="(0,0),(0,86)" priority="20"/>
+      <Image id="pl_upleft_focus" image="pl_upleft_focus" action="move"/>
+      <Image id="pl_up_focus" x="25" image="pl_up_focus" action="move" action2="playlist_window.setLayout(pl_small_layout)"/>
+      <Image id="pl_up_focus2" x="50" image="pl_up_focus" action="move" action2="playlist_window.setLayout(pl_small_layout)"/>
+      <Image id="pl_up_focus3" x="75" image="pl_up_focus" action="move" action2="playlist_window.setLayout(pl_small_layout)"/>
+      <Image id="pl_title_focus" x="87" image="pl_title_focus" action="move" action2="playlist_window.setLayout(pl_small_layout)"/>
+      <Image id="pl_up_focus4" x="187" image="pl_up_focus" action="move" action2="playlist_window.setLayout(pl_small_layout)"/>
+      <Image id="pl_up_focus5" x="200" image="pl_up_focus" action="move" action2="playlist_window.setLayout(pl_small_layout)"/>
+      <Image id="pl_up_focus6" x="225" image="pl_up_focus" action="move" action2="playlist_window.setLayout(pl_small_layout)" rightbottom="righttop"/>
+      <Image id="pl_upright_focus" x="250" image="pl_upright_focus" action="move" action2="playlist_window.setLayout(pl_small_layout)" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="pl_left" y="20" image="pl_left" action="move"/>
+      <Image id="pl_right" x="250" y="20" image="pl_right" action="move" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="pl_left2" y="49" image="pl_left" action="move" rightbottom="leftbottom"/>
+      <Image id="pl_right2" x="250" y="49" image="pl_right" action="move" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="pl_down1" x="125" y="78" image="pl_down1" action="move" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="pl_down2" x="50" y="78" image="pl_down2" action="move" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="pl_downleft" y="78" image="pl_downleft" action="move" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Image id="pl_downright" x="125" y="78" image="pl_downright" action="move" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="pl_resize" x="255" y="96" image="pl_resize" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="pl_switch_up" down="pl_switch_down" over="pl_switch_up" action="playlist_window.setLayout(pl_small_layout)" id="Unnamed Button #159" x="254" y="3" lefttop="righttop" rightbottom="righttop" tooltiptext="Switch"/>
+      <Button up="pl_close_up" down="pl_close_down" over="pl_close_up" action="playlist_window.hide()" id="Unnamed Button #160" x="264" y="3" lefttop="righttop" rightbottom="righttop" tooltiptext="Close the window"/>
+      <Playtree id="playlist" font="playlist_font" bgcolor1="#000000" bgcolor2="#000000" fgcolor="#00FF00" selcolor="#0000C6" playcolor="#FFFFFF" flat="true" x="10" y="20" width="240" height="58" rightbottom="rightbottom">
+        <Slider id="playlist_slider" x="264" y="28" points="(0,40),(0,0)" tooltiptext="" up="pl_slider_up" down="pl_slider_down" lefttop="righttop" rightbottom="rightbottom"/>
+      </Playtree>
+      <Button up="pl_add_up" down="pl_add_down" over="pl_add_up" action="playlist.add()" id="Unnamed Button #163" x="14" y="86" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Button up="pl_sub_up" down="pl_sub_down" over="pl_sub_up" action="playlist.del()" id="Unnamed Button #164" x="43" y="86" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Text text="$t" font="text_font" alignment="right" id="Unnamed Text #165" x="186" y="101" width="35" lefttop="rightbottom" rightbottom="rightbottom" visible="not vlc.isStopped"/>
+      <Button up="pl_previous" down="pl_previous" over="pl_previous" action="playlist.previous()" id="Unnamed Button #166" x="131" y="101" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="pl_play" down="pl_play" over="pl_play" action="vlc.play()" id="Unnamed Button #167" x="140" y="101" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="pl_pause" down="pl_pause" over="pl_pause" action="vlc.pause()" id="Unnamed Button #168" x="149" y="101" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="pl_stop" down="pl_stop" over="pl_stop" action="vlc.stop()" id="Unnamed Button #169" x="158" y="101" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="pl_forward" down="pl_forward" over="pl_forward" action="playlist.next()" id="Unnamed Button #170" x="167" y="101" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Button up="pl_eject" down="pl_eject" over="pl_eject" action="dialogs.fileSimple()" id="Unnamed Button #171" x="176" y="101" lefttop="rightbottom" rightbottom="rightbottom"/>
+    </Layout>
+  </Window>
+  <Window id="video_window" x="700" y="500">
+    <Layout id="video_layout" width="340" height="298" maxwidth="2000" maxheight="2500">
+      <Anchor id="Anchor #202" priority="30"/>
+      <Anchor id="Anchor #203" x="339" priority="30"/>
+      <Anchor id="Anchor #204" y="298" priority="30"/>
+      <Anchor id="Anchor #205" x="340" y="298" priority="30"/>
+      <Anchor id="todo-title?" x="233" points="(0,0),(100,0)" priority="20"/>
+      <Anchor id="Anchor #208" x="339" y="40" points="(0,0),(0,86)" priority="20"/>
+      <Anchor id="Anchor #210" x="26" y="298" points="(0,0),(280,0)" priority="20"/>
+      <Anchor id="Anchor #211" x="324" y="118" points="(0,0),(0,86)" priority="20"/>
+      <Image id="video_lefttop" image="video_lefttop_up" action="move"/>
+      <Image id="video_center_top" x="289" image="video_righttop_up" action="move" rightbottom="righttop"/>
+      <Image id="video_minclose" x="314" image="video_rightcorn_up" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="video_left" y="20" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_left_bottom" y="260" image="video_leftbottom" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Image id="video_centerbottom" x="125" y="260" image="video_center_bottom" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="video_right_bottom" x="214" y="260" image="video_rightbottom" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="video_right" x="331" y="20" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Video id="video_video" x="11" y="20" width="320" height="240" rightbottom="rightbottom"/>
+      <Button up="pl_close_up" down="video_close_clicked" action="video_window.hide()" id="video_close_button" x="327" y="3" lefttop="righttop" rightbottom="righttop"/>
+      <Button up="video_fullscreen" action="vlc.fullscreen()" id="video_fullscreen_button" x="10" y="271" lefttop="leftbottom" rightbottom="leftbottom" tooltiptext="Fullscreen mode"/>
+      <Button up="video_tv" action="dialogs.streamingWizard()" id="video_streaming_wizard" x="56" y="271" lefttop="leftbottom" rightbottom="leftbottom" tooltiptext="Streaming Wizard"/>
+      <Button up="video_dropdown" action="dialogs.videoPopup()" id="video_settings" x="70" y="271" lefttop="leftbottom" rightbottom="leftbottom" tooltiptext="Video Settings"/>
+      <Image id="video_center_top_copy" x="264" image="video_righttop_up" action="move" rightbottom="righttop"/>
+      <Image id="video_center_top_copy_copy" x="239" image="video_righttop_up" action="move" rightbottom="righttop"/>
+      <Image id="video_center_top_copy_copy_copy" x="220" image="video_righttop_up" action="move" rightbottom="righttop"/>
+      <Image id="video_center_top_copy_copy_copy_copy" x="95" image="video_righttop_up" action="move" rightbottom="righttop"/>
+      <Image id="video_center_top_copy_copy_copy_copy_copy" x="70" image="video_righttop_up" action="move" rightbottom="righttop"/>
+      <Image id="video_center_top_copy_copy_copy_copy_copy_copy" x="45" image="video_righttop_up" action="move" rightbottom="righttop"/>
+      <Image id="video_center_top_copy_copy_copy_copy_copy_copy_copy" x="25" image="video_righttop_up" action="move" rightbottom="righttop"/>
+      <Image id="video_title_focus" x="120" image="video_title_up" action="move" resize="scale2" rightbottom="righttop"/>
+      <Image id="video_left_copy" y="49" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_left_copy_copy" y="78" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_left_copy_copy_copy" y="107" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_left_copy_copy_copy_copy" y="136" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_left_copy_copy_copy_copy_copy" y="165" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_left_copy_copy_copy_copy_copy_copy" y="194" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_left_copy_copy_copy_copy_copy_copy_copy" y="223" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_left_copy_copy_copy_copy_copy_copy_copy_copy" y="231" image="video_center_left" rightbottom="leftbottom"/>
+      <Image id="video_right_copy" x="331" y="49" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="video_right_copy_2" x="331" y="78" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="video_right_copy_3" x="331" y="107" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="video_right_copy_3_copy" x="331" y="136" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="video_right_copy_3_copy_copy" x="331" y="165" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="video_right_copy_3_copy_copy_copy" x="331" y="194" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="video_right_copy_3_copy_copy_copy_copy" x="331" y="223" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="video_right_copy_3_copy_copy_copy_copy_copy" x="331" y="232" image="video_center_right" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="video_centerbottom_copy" x="150" y="260" image="video_center_bottom" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="video_centerbottom_copy_copy" x="175" y="260" image="video_center_bottom" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="video_centerbottom_copy_copy_copy" x="195" y="260" image="video_center_bottom" lefttop="leftbottom" rightbottom="rightbottom"/>
+    </Layout>
+  </Window>
+
+</Theme>
