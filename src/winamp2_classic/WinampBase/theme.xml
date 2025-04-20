@@ -3,7 +3,7 @@
   <ThemeInfo name="Winamp2 Classic" author="Christopher Conley (Original author: Baegus, baegus@gmail.com, http://baegus.deviantart.com/)" email="chris@unnx.net" webpage="https://github.com/christopher-conley/vlc-winamp2-classic-skin"/>
 
   <!-- Created using the VLC Skin Editor 0.8.5.dev (http://www.videolan.org/vlc/skineditor.html)-->
-  <!-- Version: 2025.04.20.103558 -->
+  <!-- Version: 2025.04.20.112157 -->
 
   <Bitmap id="cbuttons" file="cbuttons.png" alphacolor="#00c6ff">
     <SubBitmap id="previous_up" x="0" y="0" height="18" width="23"/>
